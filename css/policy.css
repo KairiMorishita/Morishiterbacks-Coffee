@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.policy_list{
+    margin: 0 3% 0 1%;
+  }
+  
+.policy_list dt{
+    font-weight: bold;
+    border-bottom: 1px solid #666666;
+  }
+  
+.policy_list dd{
+    padding: 4px 0 16px;
+  }

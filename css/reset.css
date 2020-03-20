@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+html,body,h1,h2,div,p,header,main,footer{
+	margin: 0;
+	padding: 0;
+}
+
+header,main,footer{
+	display : block;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.law_list{
+    margin: 0 3% 0 1%;
+  }
+  
+.law_list dt{
+    font-weight: bold;
+    border-bottom: 1px solid #666666;
+  }
+  
+.law_list dd{
+    padding: 4px 0 16px;
+  }

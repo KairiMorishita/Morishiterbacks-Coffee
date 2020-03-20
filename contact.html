@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>Morishiterbacks Coffee</title>
+		<!--リセット-->
+		<link rel="stylesheet" href="css/reset.css">
+		<!--共通-->
+		<link rel="stylesheet" href="css/common.css">
+		<link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kosugi&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/contact.css">
+	</head>
+
+	<body onload="animestart();">
+	<div id="wrapper">
+		<header class="clearfix">
+			<p class="cart"><a href="cart.php"><img src = "images/cart.png" alt="カートの中をみる"></a></p>
+		  <a href="index.php"><img src="images/touka.png" class="rogo"></a>
+			<p class="catchcopy">頑張る人へ頑張らない時間を</p>
+			<h1><a href="index.php">Morishiterbacks Coffee</a></h1>
+		</header>
+
+				<nav class="global">
+			<ul class="clearfix" id="gnav">
+				<li><a href="index.php">HOME<span><br>トップ</span></a></li>
+				<li><a href="menues.php">MENU<span><br>メニュー</span></a></li>
+				<li><a href="goodslist.php">GOODS<span><br>グッズ</span></a></li>
+				<li><a href="service.php">SERVICE<span><br>サービス</span></a></li>
+				<li><a href="about.php">SHOP<span><br>店舗案内</span></a></li>
+			</ul>
+		</nav>
+
+	<body>
+	<div id="wrapper">
+
+		<main>
+    <div class="contactimg">
+      <img src="images/contact.png">
+		</div>
+
+			<h2>お問い合わせフォーム（入力画面）</h2>
+			<div>
+				<form method="post" action="contact.php">
+				<table>
+				<tr>
+					<th>名前&nbsp;<span class="hissu">必須</span></th>
+					<td><input type="text" name="name" placeholder="※山田太郎" autofocus></td>
+				</tr>
+				<tr>
+					<th>ふりがな&nbsp;<span class="hissu">必須</span></th>
+					<td><input type="text" name="furi" placeholder="※やまだたろう"></td>
+				</tr>
+				<tr>
+					<th>メールアドレス&nbsp;<span class="hissu">必須</span></th>
+					<td><input type="text" name="email" placeholder="※morishiterbacks@example.com"></td>
+				</tr>
+				<tr>
+					<th>電話番号&nbsp;<span class="hissu">必須</span></th>
+					<td>
+						<input type="text" name="tel" placeholder="※000-1234-5678">
+					</td>
+				</tr>
+				<tr>
+					<th>お問い合わせ種別&nbsp;<span class="hissu">必須</span></th>
+					<td>
+						<select name="naiyou">
+							<option value="">選択してください</option>
+							<optgroup label="下記内容からお選び下さい">
+								<option value="1">メニューについて</option>
+								<option value="2">お店やサービスについて</option>
+								<option value="3">社員の募集について</option>
+								<option value="4">アルバイトの募集について</option>
+								<option value="5">このサイトについて</option>
+								<option value="6">ご意見ご要望</option>
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>お問い合わせ内容&nbsp;<span class="hissu">必須</span></th>
+					<td><textarea name="comment" placeholder="お店のWi-Fiの環境を改善してほしい。"></textarea></td>
+				</tr>
+		</table>
+
+			<div class="btn">
+				<button type="submit">
+					<img src="images/regi_kakunin.png" alt="内容を確認する">
+				</button>
+			</div>
+			</form>
+			</div>
+			</main>
+
+<footer class="global">
+		<ul>
+			<li><a href="allergy.php">ALLERGY&NUTRITION&nbsp;INFO<span><br>アレルギー・栄養成分</span></a></li>
+			<li><a href="contact.html">CONTACT<span><br>お問い合わせ</span></a></li>
+			<li><a href="policy.php">POLICY<span><br>個人情報保護方針</a></li>
+			<li><a href="torihikihou.php">LEGAL INFO<span><br>特定商取引法に基づく表記</a></li>
+			<li><a href="recruit.php">RECRUIT<span><br>スタッフ募集</span></a></li>
+		</ul>
+		<p class="copyright"><small>(C)2020 Morishiterbacks Coffee </small></p>
+</footer>
+
+</div>
+</body>
+</html>

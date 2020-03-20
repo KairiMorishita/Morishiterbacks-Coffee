@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table tr{
+  border-bottom: solid 1px #000000;
+}
+
+table th,table td{
+  text-align: center;
+  padding: 15px 0;
+}
+
+.btn{
+  text-align: center;
+  padding: 16px;
+}
+
+.error{
+	color :#ff1a18;
+	font-size :smaller;
+}

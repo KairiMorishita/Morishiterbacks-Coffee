@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h3{
+	font-size :1.5em;
+	color :#993300;
+}
+
+.law_list{
+    margin: 0 3% 0 1%;
+    margin-top :40px;
+  }
+  
+.law_list dt{
+    font-weight: bold;
+    border-bottom: 1px solid #666666;
+  }
+  
+.law_list dd{
+    padding: 4px 0 16px;
+  }
+  
+img{
+	margin-bottom :24px;
+} 

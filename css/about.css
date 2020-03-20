@@ -1,0 +1,15 @@
+.about{
+	float :right;
+}
+
+.about img{
+		width :640px;
+		margin-top :32px;
+		margin-right :32px;
+}
+
+.gmap{
+	text-align :center;
+	margin :24px;
+}
+
