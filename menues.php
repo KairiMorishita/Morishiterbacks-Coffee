@@ -11,17 +11,26 @@ if(isset($_GET["cate"])){
 //==============================================================================
 //■データベース情報を設定
 //==============================================================================
-$dsn = 'mysql:dbname=morishiterbacks;host=localhost;charset=utf8';
+$dbname = getenv('DB_DATABASE');
+$dbhost = getenv('DB_HOST');
+$dbusername = getenv('DB_USERNAME');
+$dbpassword = getenv('DB_PASSWORD');
 
-$user = 'root';  //ユーザー名
-$password = '';  //パスワード
+$dsn = 'mysql:dbname='.$dbname.';host='.$dbhost.';charset=utf8';
+
+$user = $dbusername;  //ユーザー名
+$password = $dbpassword;  //パスワード
+
+$options = array(
+	PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8mb4',
+);
 
 //==============================================================================
 //■try(正常処理)
 //==============================================================================
 try{
 	//PDOオブジェクトの作成
-	$dbh = new PDO($dsn, $user, $password);
+	$dbh = new PDO($dsn, $user, $password, $options);
 
 //==============================================================================
 //■エラーの表示内容を指定

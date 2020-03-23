@@ -25,7 +25,6 @@
 		</dl>
 				<small>※60分間利用可能です。</small><br>
 				<small>※60分経過後は再認証で接続可能となります。</small><br>
-				
 		<dl class="law_list">
 		<h3>感謝デー</h3>
 		 		<img src="images/kansya.jpg">
@@ -42,7 +41,6 @@
 					※店舗により品ぞろえが異なります。取扱商品に関しましては、ご利用の店舗にお尋ねください。<br>
 		  </dd>
 		</dl>
-		
 		<dl class="law_list">
 		<h3>クレジットカード</h3>
 		<img src="images/credit.jpg">
