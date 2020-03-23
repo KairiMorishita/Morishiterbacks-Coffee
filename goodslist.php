@@ -11,10 +11,15 @@ if(isset($_GET["cate"])){
 //==============================================================================
 //■データベース情報を設定
 //==============================================================================
-$dsn = 'mysql:dbname=morishiterbacks;host=localhost;charset=utf8';
+$dbname = getenv('DB_DATABASE');
+$dbhost = getenv('DB_HOST');
+$dbusername = getenv('DB_USERNAME');
+$dbpassword = getenv('DB_PASSWORD');
 
-$user = 'root';  //ユーザー名
-$password = '';  //パスワード
+$dsn = 'mysql:dbname='.$dbname.';host='.$dbhost.';charset=utf8';
+
+$user = $dbusername;  //ユーザー名
+$password = $dbpassword;  //パスワード
 
 //==============================================================================
 //■try(正常処理)
