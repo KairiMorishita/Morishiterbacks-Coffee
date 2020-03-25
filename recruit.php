@@ -4,7 +4,7 @@
 <?php include('header.php'); ?>
 
 		<div>
-			<img src = "images/recruit.jpg" id="recruit">
+			<img src = "images/slide5.jpg" id="recruit">
 		</div>
 
 		<main>

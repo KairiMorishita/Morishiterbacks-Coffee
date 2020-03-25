@@ -28,7 +28,7 @@
 
 			<h2>季節のおすすめ</h2>
 			<div class="osusume">
-				<a href="menues.php"><img src = "images/osusume.jpg"></a>
+				<a href="menues.php"><img src = "images/mush.jpg"></a>
 				<a href="menues.php"><img src = "images/pan1.jpg"></a>
 				<a href="menues.php"><img src = "images/pan4.jpg"></a>
 			</div>
