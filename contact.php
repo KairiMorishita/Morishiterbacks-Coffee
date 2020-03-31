@@ -36,7 +36,6 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 	$comment = htmlspecialchars($_POST["comment"],ENT_QUOTES,'UTF-8');
 
 	//全角・半角の変換
-	$name = mb_convert_kana($name,'k','UTF-8');
 	$comment = mb_convert_kana($comment,'h','UTF-8');
 
 //エラーチェック
