@@ -35,9 +35,6 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 	$naiyou = htmlspecialchars($_POST["naiyou"],ENT_QUOTES,'UTF-8');
 	$comment = htmlspecialchars($_POST["comment"],ENT_QUOTES,'UTF-8');
 
-	//全角・半角の変換
-	$comment = mb_convert_kana($comment,'h','UTF-8');
-
 //エラーチェック
 
 //名前（テキストボックス）
