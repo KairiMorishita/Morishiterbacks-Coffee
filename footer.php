@@ -6,5 +6,5 @@
 			<li><a href="recruit.php">RECRUIT<span><br>スタッフ募集</span></a></li>
 		</ul>
 		<p class="copyright"><small>(C)2020 Morishiterbacks Coffee </small></p>
-		<p class="pagetop"><small><a href="#wraper">↑&nbsp;Page&nbsp;Top</a><small></p>
+		<p class="pagetop"><small><a href="#wrapper">↑&nbsp;Page&nbsp;Top</a><small></p>
 </footer>
