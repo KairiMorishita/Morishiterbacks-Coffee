@@ -135,7 +135,7 @@ try{
 		</div>
 </div><!-- containerの終わり -->
 
-	</main>
+</main>
 
 		<?php include('footer.php'); ?>
 
